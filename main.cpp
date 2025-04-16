@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "./dll.h"
+#include "./math.h"
 
 void print_op(int a, int b, char op, int result) {
     std::cout << "(a " << op << " b :: " << a << " " << op << " " << b << " = " << result << std::endl;
