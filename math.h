@@ -1,4 +1,4 @@
-#include "./include/dll_runtime.h"
+#include "./dll_runtime.h"
 
 #define DLL_NAME "math.dll"
 
