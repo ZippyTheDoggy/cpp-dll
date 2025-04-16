@@ -5,4 +5,4 @@
 int(*add)(int, int) = dllruntime::DLLGetFunction<int(*)(int, int)>(DLL_NAME, "add");
 int(*sub)(int, int) = dllruntime::DLLGetFunction<int(*)(int, int)>(DLL_NAME, "sub");
 int(*mul)(int, int) = dllruntime::DLLGetFunction<int(*)(int, int)>(DLL_NAME, "mul");
-int(*div)(int, int) = dllruntime::DLLGetFunction<int(*)(int, int)>(DLL_NAME, "div");
+int(*divide)(int, int) = dllruntime::DLLGetFunction<int(*)(int, int)>(DLL_NAME, "divide");
